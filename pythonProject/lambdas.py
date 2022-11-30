@@ -5,4 +5,3 @@ q = (lambda x: a * 2)({})
 
 
 print((lambda x, y, z: x + y)(3, 8, {}))
-
