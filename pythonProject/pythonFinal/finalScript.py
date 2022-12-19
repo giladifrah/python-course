@@ -1,5 +1,4 @@
 
-
 beernight = open("log1.txt", "r")
 guests = open("guests.log", "w")
 hosts = open("hosts.log", "w")
