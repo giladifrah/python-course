@@ -692,4 +692,4 @@ Nivi: My yard is available Thursday at 11:00
 Michael: My yard is available Monday at 11:00
 Andrii: My yard is available Sunday at 12:00
 George: My yard is available Thursday at 17:00
-Finish_Sample: I can do Finish at 11:00
+Nivi: My yard is available Tuesday at 19:00

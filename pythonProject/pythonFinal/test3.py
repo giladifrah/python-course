@@ -77,10 +77,10 @@ print(shem)
 
 print(yards.Day + yards.Time)
 
-while shem:
+while shem.any():
     for y in yards:
         for p in people:
-            if p.Name == y.Name:
+            if p == y:
                 continue
 #            elif (y.Day + y.Time) == (p.Day + p.Time):
 
