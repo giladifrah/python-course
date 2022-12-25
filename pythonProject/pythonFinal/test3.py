@@ -82,7 +82,7 @@ while shem:
         for p in people:
             if p.Name == y.Name:
                 continue
-            elif (y.Day + y.Time) == (p.Day + p.Time):
+#            elif (y.Day + y.Time) == (p.Day + p.Time):
 
 
 
