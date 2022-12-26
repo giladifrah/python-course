@@ -39,7 +39,7 @@ for line in beers:
         for txt1, repl in zip(text1, rep):
             line = line.replace(txt1, repl)
         hosts.write(line)
-        guests.write(line)  # Hosts are also guest, obviously
+        guests.write(line)  # Hosts are also guests, obviously
     else:
         for txt1, repl in zip(text1, rep):
             line = line.replace(txt1, repl)
@@ -73,9 +73,7 @@ print(type(shem))
 shem = np.delete(shem, np.where(shem == 'Gil'))
 print(shem)
 
-
-
-print(yards.Day + yards.Time)
+# print(yards.Day + yards.Time)
 
 while shem.any():
     for y in yards:
@@ -83,8 +81,6 @@ while shem.any():
             if p == y:
                 continue
 #            elif (y.Day + y.Time) == (p.Day + p.Time):
-
-
 
 with open("hosts.log", "r") as hosts_check:
     while hosts_check.readline():
